@@ -286,8 +286,8 @@ input#check {
 /* Tarjetas de Comida */
 .section {
   background: rgb(84, 85, 85);
-  max-width: 100%;
-  margin: 1rem;
+  max-width: 1200px;
+  margin: 8rem auto;
   padding: 1rem;
   border-radius: 5px;
 }
@@ -304,7 +304,7 @@ input#check {
   height: 400px;
   border-radius: 6px;
   padding: 1rem 0.5rem;
-  display: flex;
+  display: inline;
   align-items: end;
 }
 .wrap-text_tarjeta-rest {
