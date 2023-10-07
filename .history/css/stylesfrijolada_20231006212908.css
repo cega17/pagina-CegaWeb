@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Montaga&family=Poppins:ital,wght@0,500;1,500;1,600&family=Raleway:wght@300&family=Roboto+Serif:opsz,wght@8..144,200&family=Roboto:ital,wght@1,300&display=swap');
+*{
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#title{
+    background: none;
+}
+h1, h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8e1e1;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.header {
+    display:fixed;
+    background-image: url('../imgs/frijoles.jpeg');
+    background-size: cover;
+    height: 300px;
+}
+.header h1 {
+    font-size: 36px;
+    color: #fff;
+    padding-top: 80px;
+}
+.infografia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    margin: 20px;
+   
+}
+.narrativa-persuasiva{
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.beneficio {
+    text-align: center;
+}
+
+.beneficio img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.beneficio p {
+    font-size: 14px;
+    color: #333;
+}
+
+.slogan {
+    
+    font-size: 20px;
+    margin-top: 20px;
+    color: #333;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Altura personalizada */
+    margin-top: 20px; /* Márgenes superiores personalizados */
+}
+
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contact-btn {
+    display: grid;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    
+    width: 50%;
+   
+}
+.contact-btn:hover {
+    background-color: #e55000;
+}
+
+.calidad-ingredientes {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para sección de sabor auténtico */
+.llamado-accion{
+margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sabor-autentico {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sabor-autentico blockquote {
+    background-color: #fff;
+    font-style: italic;
+    padding: 10px;
+    border-left: 2px solid #333;
+    margin: 20px 0;
+}
+
+.sabor-autentico blockquote p {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Estilos para el botón de acción */
+.boton-accion {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.boton-accion:hover {
+    background-color: #e55000;
+}
+
+
+/* Estilos para el formulario */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical; /* Permite redimensionar verticalmente solo */
+}
+
+input[type="submit"] {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #e64a19;
+}
+/* Enlace de WhatsApp */
+.wathsapp {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25d366;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+a:hover {
+    background-color: #128c7e;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 8px;
+    }
+
+    input[type="submit"],
+    a {
+        padding: 8px 16px;
+    }
+}
+#footer-creds {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem ;
+    color: #576171;
+    font-size: 0.9rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  #legal-creds ul {
+    display: flex;
+    flex-flow: row;
+  }
+  #legal-creds ul li {
+    padding-right: 1rem;
+  }
+  #legal-creds ul a {
+    color: #576171;
+    font-size: 0.9rem;
+  }
+  @media (max-width: 320px) {
+    #footer-creds {
+      flex-flow: column;
+    }
+  }
